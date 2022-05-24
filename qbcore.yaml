@@ -82,11 +82,6 @@ tasks:
     src: https://github.com/qbcore-framework/connectqueue
 
   - action: download_github
-    dest: ./resources/[standalone]/dpemotes
-    ref: master
-    src: https://github.com/qbcore-framework/dpemotes
-
-  - action: download_github
     dest: ./resources/[standalone]/PolyZone
     ref: master
     src: https://github.com/qbcore-framework/PolyZone
@@ -123,32 +118,7 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/prison_map
     
-  # Downloading QBCore resources
-  - action: download_github
-    dest: ./resources/[qb]/qb-core
-    ref: main
-    src: https://github.com/qbcore-framework/qb-core
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-scoreboard
-    ref: main
-    src: https://github.com/qbcore-framework/qb-scoreboard
-    
-  - action: download_github
-    dest: ./resources/[qb]/qb-adminmenu
-    ref: main
-    src: https://github.com/qbcore-framework/qb-adminmenu
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-multicharacter
-    ref: main
-    src: https://github.com/qbcore-framework/qb-multicharacter
-    
-  - action: download_github
-    dest: ./resources/[qb]/qb-target
-    ref: main
-    src: https://github.com/qbcore-framework/qb-target
-
+  # Downloading QBCore resources    
   - action: waste_time # prevent github throttling
     seconds: 10
 
@@ -173,26 +143,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-houserobbery
     
   - action: download_github
-    dest: ./resources/[qb]/qb-prison
-    ref: main
-    src: https://github.com/qbcore-framework/qb-prison
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-atms
-    ref: main
-    src: https://github.com/qbcore-framework/qb-atms
-    
-  - action: download_github
-    dest: ./resources/[qb]/qb-hud
-    ref: main
-    src: https://github.com/qbcore-framework/qb-hud
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-management
-    ref: main
-    src: https://github.com/qbcore-framework/qb-management
-
-  - action: download_github
     dest: ./resources/[qb]/qb-weed
     ref: main
     src: https://github.com/qbcore-framework/qb-weed
@@ -203,24 +153,9 @@ tasks:
     src: https://github.com/qbcore-framework/qb-lapraces
 
   - action: download_github
-    dest: ./resources/[qb]/qb-inventory
-    ref: main
-    src: https://github.com/qbcore-framework/qb-inventory
-
-  - action: download_github
     dest: ./resources/[qb]/qb-houses
     ref: main
     src: https://github.com/qbcore-framework/qb-houses
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-garages
-    ref: main
-    src: https://github.com/qbcore-framework/qb-garages
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-ambulancejob
-    ref: main
-    src: https://github.com/qbcore-framework/qb-ambulancejob
 
   - action: download_github
     dest: ./resources/[qb]/qb-vehiclefailure
@@ -229,11 +164,6 @@ tasks:
 
   - action: waste_time # prevent github throttling
     seconds: 10
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-radialmenu
-    ref: main
-    src: https://github.com/qbcore-framework/qb-radialmenu
 
   - action: download_github
     dest: ./resources/[qb]/qb-crypto
@@ -246,19 +176,9 @@ tasks:
     src: https://github.com/qbcore-framework/qb-weathersync
 
   - action: download_github
-    dest: ./resources/[qb]/qb-policejob
-    ref: main
-    src: https://github.com/qbcore-framework/qb-policejob
-
-  - action: download_github
     dest: ./resources/[qb]/qb-traphouse
     ref: main
     src: https://github.com/qbcore-framework/qb-traphouse
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-apartments
-    ref: main
-    src: https://github.com/qbcore-framework/qb-apartments
 
   - action: download_github
     dest: ./resources/[qb]/qb-vehiclekeys
@@ -269,11 +189,6 @@ tasks:
     dest: ./resources/[qb]/qb-mechanicjob
     ref: main
     src: https://github.com/qbcore-framework/qb-mechanicjob
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-phone
-    ref: main
-    src: https://github.com/qbcore-framework/qb-phone
 
   - action: download_github
     dest: ./resources/[qb]/qb-vineyard
@@ -321,24 +236,9 @@ tasks:
     src: https://github.com/qbcore-framework/qb-skillbar
 
   - action: download_github
-    dest: ./resources/[qb]/qb-smallresources
-    ref: main
-    src: https://github.com/qbcore-framework/qb-smallresources
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-recyclejob
-    ref: main
-    src: https://github.com/qbcore-framework/qb-recyclejob
-
-  - action: download_github
     dest: ./resources/[qb]/qb-diving
     ref: main
     src: https://github.com/qbcore-framework/qb-diving
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-cityhall
-    ref: main
-    src: https://github.com/qbcore-framework/qb-cityhall
 
   - action: download_github
     dest: ./resources/[qb]/qb-anticheat
@@ -379,11 +279,6 @@ tasks:
     seconds: 10
 
   - action: download_github
-    dest: ./resources/[qb]/qb-bankrobbery
-    ref: main
-    src: https://github.com/qbcore-framework/qb-bankrobbery
-
-  - action: download_github
     dest: ./resources/[qb]/qb-truckerjob
     ref: main
     src: https://github.com/qbcore-framework/qb-truckerjob
@@ -399,29 +294,9 @@ tasks:
     src: https://github.com/qbcore-framework/qb-fitbit
 
   - action: download_github
-    dest: ./resources/[qb]/qb-commandbinding
-    ref: main
-    src: https://github.com/qbcore-framework/qb-commandbinding
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-banking
-    ref: main
-    src: https://github.com/qbcore-framework/qb-banking
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-clothing
-    ref: main
-    src: https://github.com/qbcore-framework/qb-clothing
-
-  - action: download_github
     dest: ./resources/[qb]/qb-hotdogjob
     ref: main
     src: https://github.com/qbcore-framework/qb-hotdogjob
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-doorlock
-    ref: main
-    src: https://github.com/qbcore-framework/qb-doorlock
 
   - action: download_github
     dest: ./resources/[qb]/qb-garbagejob
@@ -432,11 +307,6 @@ tasks:
     dest: ./resources/[qb]/qb-drugs
     ref: main
     src: https://github.com/qbcore-framework/qb-drugs
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-shops
-    ref: main
-    src: https://github.com/qbcore-framework/qb-shops
 
   - action: download_github
     dest: ./resources/[qb]/qb-lockpick
@@ -462,6 +332,144 @@ tasks:
     dest: ./resources/[qb]/qb-loading
     ref: main
     src: https://github.com/qbcore-framework/qb-loading
+
+  # Modified files
+  
+  - action: download_github
+    dest: ./resources/[qb]/qb-smallresources
+    ref: main
+    src: https://github.com/ColonYRPIL/qb-smallresources
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-shops
+    ref: main
+    src: https://github.com/ColonYRPIL/qb-shops
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-scoreboard
+    ref: main
+    src: https://github.com/ColonYRPIL/qb-scoreboard
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-radialmenu
+    ref: main
+    src: https://github.com/ColonYRPIL/qb-radialmenu
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-policejob
+    ref: main
+    src: https://github.com/ColonYRPIL/qb-policejob
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-multicharacter
+    ref: main
+    src: https://github.com/ColonYRPIL/qb-multicharacter
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-management
+    ref: main
+    src: https://github.com/ColonYRPIL/qb-management
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-inventory
+    ref: main
+    src: https://github.com/ColonYRPIL/qb-inventory
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-hud
+    ref: main
+    src: https://github.com/ColonYRPIL/qb-hud
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-garages
+    ref: main
+    src: https://github.com/ColonYRPIL/qb-garages
+
+  - action: waste_time # prevent github throttling
+    seconds: 10
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-doorlock
+    ref: main
+    src: https://github.com/ColonYRPIL/qb-doorlock
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-core
+    ref: main
+    src: https://github.com/ColonYRPIL/qb-core
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-clothing
+    ref: main
+    src: https://github.com/ColonYRPIL/qb-clothing
+  
+  - action: download_github
+    dest: ./resources/[qb]/qb-cityhall
+    ref: main
+    src: https://github.com/ColonYRPIL/qb-cityhall
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-banking
+    ref: main
+    src: https://github.com/ColonYRPIL/qb-banking
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-atms
+    ref: main
+    src: https://github.com/ColonYRPIL/qb-atms
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-ambulancejob
+    ref: main
+    src: https://github.com/ColonYRPIL/qb-ambulancejob
+
+  - action: download_github
+    dest: ./resources/[standalone]/dpemotes
+    ref: master
+    src: https://github.com/ColonYRPIL/dpemotes
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-target
+    ref: main
+    src: https://github.com/ColonYRPIL/qb-target
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-adminmenu
+    ref: main
+    src: https://github.com/ColonYRPIL/qb-adminmenu
+
+  - action: waste_time # prevent github throttling
+    seconds: 10
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-prison
+    ref: main
+    src: https://github.com/ColonYRPIL/qb-prison
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-recyclejob
+    ref: main
+    src: https://github.com/ColonYRPIL/qb-recyclejob
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-phone
+    ref: main
+    src: https://github.com/ColonYRPIL/qb-phone
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-commandbinding
+    ref: main
+    src: https://github.com/ColonYRPIL/qb-commandbinding
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-bankrobbery
+    ref: main
+    src: https://github.com/ColonYRPIL/qb-bankrobbery
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-apartments
+    ref: main
+    src: https://github.com/ColonYRPIL/qb-apartments
 
   # Clean up
   - action: remove_path
